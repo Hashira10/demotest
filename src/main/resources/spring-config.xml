@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <bean id="personSingleton" class="kz.kbtu.demotest.model.Person" scope="singleton" />
+
+    <!--    <bean id="item1" class="kz.kbtu.demotest.ItemImpl1" />-->
+<!--    <bean id="store" class="kz.kbtu.demotest.Store">-->
+<!--        <constructor-arg type="kz.kbtu.demotest.Item" index="0" name="item" ref="item1" />-->
+<!--    </bean>-->
+
+<!--    <bean id="store" class="kz.kbtu.demotest.Store">-->
+<!--        <property name="item" ref="item1" />-->
+<!--    </bean>-->
+<!--    <bean id="store" class="kz.kbtu.demotest.Store" autowire="byType"> </bean>-->
+
+<!--    <bean id="item" class="kz.kbtu.demotest.Store" />-->
+
+<!--    <bean id="store" class="kz.kbtu.demotest.Store" autowire="byName">-->
+<!--    </bean>-->
+<!--    <bean id="item1" class="kz.kbtu.demotest.Store" lazy-init="true" />-->
+</beans>
